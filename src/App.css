@@ -1,4 +1,16 @@
+footer {
+  text-align: center;
+}
 .header {
   font-size: 4rem;
+  font-family: "Poiret One", cursive;
+  font-family: "Special Elite", cursive;
   text-align: center;
+}
+.container {
+  max-width: 950px;
+}
+.searchBox {
+  width: 600px;
+  margin: 0 auto;
 }

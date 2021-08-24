@@ -7,6 +7,7 @@ function App() {
       <div className="container">
         <header className="header">Dictionary</header>
         <Dictionary />
+        <footer>Coded by Bir Kanwal Kaur Randhawa</footer>
       </div>
     </div>
   );
