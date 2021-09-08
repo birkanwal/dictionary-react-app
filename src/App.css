@@ -1,10 +1,11 @@
-footer {
-  text-align: center;
-}
-.header {
-  font-size: 4rem;
+header {
+  font-size: 6rem;
   font-family: "Poiret One", cursive;
   font-family: "Special Elite", cursive;
+  text-align: center;
+  color: rgb(70, 70, 107);
+}
+footer {
   text-align: center;
 }
 .container {
@@ -13,4 +14,15 @@ footer {
 .searchBox {
   width: 600px;
   margin: 0 auto;
+  margin-bottom: 40px;
+}
+.form-control {
+  font-size: 25px;
+  border: 1px solid rgb(70, 70, 107);
+  border-radius: 30px;
+}
+.key-word {
+  color: rgb(70, 70, 107);
+  font-family: "Special Elite", cursive;
+  font-size: 4rem;
 }

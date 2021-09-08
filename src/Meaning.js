@@ -1,17 +1,18 @@
 import React from "react";
+import "./Meaning.css";
 
 export default function Meaning(props) {
   console.log(props.meaning);
   return (
     <div>
-      <h2>{props.meaning.partOfSpeech}</h2>
+      <h2 className="sub-heading">{props.meaning.partOfSpeech}</h2>
       {props.meaning.definitions.map(function (definition, index) {
         return (
           <div key={index}>
-            <p>
+            <p className="meaning">
               {definition.definition}
               <br />
-              <em>{definition.example}</em>
+              <em>e.g. "{definition.example}"</em>
             </p>
           </div>
         );
